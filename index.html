@@ -21,17 +21,20 @@
 
     
 
-    .col-lg-8 {
+    .col-md-8 {
       border-radius: 10px;
       background: whitesmoke;
       margin-bottom: 75px;
       margin: auto;
-      float: center;
+      float: left;
+      padding: 20px;
+      min-height: 70vh;
     }
 
 
+
    footer {
-    padding: 10px 0px 30px 0px;
+    padding: 10px 20px 30px 0px;
     bottom: 0;
     position: fixed;
     left: 0;
@@ -48,8 +51,17 @@
      padding: 20px 20px 0px 20px;
    }
 
+  .pic-text {
+    display: inline;
+  }  
+  #picture {
+    margin: 0 !important;
+  }  
 
-  
+  .img-fluid {
+    float: left;
+    padding: 10px;
+  }
     
 </style>
 
@@ -81,24 +93,27 @@
 <!-- start about me section -->
 <div class="container">
   <div class="row">
-    <div class="col-lg-8">
+    <div class="col-md-8">
       <div class="page-header">
         <h2>About Me</h2>
         <hr>
       </div>
-      <div class="row">
-        <div class="col lg">
-          <img src="images/main.jpg" alt="Austin with Lincoln">
-        </div>
-        <div class="col lg">
-          <p>Hello! My name is Austin Wayman. I'm from Branson, Missouri but I currently reside in Phoenix, AZ! I
+      <div class="row pic-text">
+        <div class="text">
+         
+            
+     
+          <p><img class="img-fluid" src="images/main.jpg" alt="Austin with Lincoln">Hello! My name is Austin Wayman. I'm from Branson, Missouri but I currently reside in Phoenix, AZ! I
             currently work at Apple Scottsdale Fashion Square as a Genius. I enjoy spending time with my wife and
-            1-year-old daughter Lincoln.</p>
-          <p>Along with being a Genius I also play snare drum on the Arizona Cardinals Drumline! This will be my 5th
+            1-year-old daughter Lincoln.
+            <br>
+            <br>
+            Along with being a Genius I also play snare drum on the Arizona Cardinals Drumline! This will be my 5th
             year playing for this great organization. Not only do I get paid to do what I love but I also get to watch
             the best sport of the planet. Can't beat that!
-          </p>
-          <p> I also enjoy going to Disneyland with my family, tiki culture, video games, Lord of the Rings, Harry
+            <br>
+            <br>
+             I also enjoy going to Disneyland with my family, tiki culture, video games, Lord of the Rings, Harry
             Potter, Dungeons & Dragons, and other random nerdy things. I own a clothing company called Valiant &
             Valiant Apparel that makes Disney rips of old rock bands!
           </p>
@@ -121,3 +136,5 @@
 </body>
 
 </html>
+
+<!-- Question: wrapping text around image? Navbar toggler issues -->
