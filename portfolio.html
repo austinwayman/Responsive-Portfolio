@@ -15,13 +15,12 @@
         .container2 {
             background: whitesmoke;
             border-radius: 10px;
-            margin: auto;
+            margin: 20px;
             padding: 20px;
-            width: 960px;
+            width: auto;
             float: center;
             margin-bottom: 20px;
-            margin-bottom:20px;
-            min-height: 70vh;
+            min-height: 50vh;
             
         }
         footer {
@@ -44,6 +43,35 @@
     clear: both;
     margin-bottom: 20px;
     }
+
+    img {
+        padding: 10px;
+    }
+
+
+@media screen and (max-width: 980px) {
+    .col-lg-6 {
+        width: 50%;
+    }
+    .container2{ 
+    margin: 20px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+  .col-lg-6 {
+    max-width: 50%;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  nav {
+    position: static;
+  }
+  .row {
+      display: grid;
+  }
+}
        
     </style>
 </head>
@@ -73,24 +101,24 @@
         <h2>Portfolio</h2>
         <hr>
         <div class="row">
-            <div class="col-lg-4">
+            <div class="col-lg-6">
                 <a class="thumbnail" href="#" class="thumbnail">
                     <img class="img-responsive" src="images/wordguess.jpg">
                 </a>
             </div>
-            <div class="col-lg-4">
+            <div class="col-lg-6">
                 <a class="thumbnail" href="#" class="thumbnail">
                     <img class="img-responsive" src="images/rpggame.jpg">
                 </a>
             </div>
         </div>
         <div class="row">
-            <div class="col-lg-4">
+            <div class="col-lg-6">
                 <a class="thumbnail" href="#" class="thumbnail">
                     <img class="img-responsive" src="images/triviagame.jpg">
                 </a>
             </div>
-            <div class="col-lg-4">
+            <div class="col-lg-6">
                 <a class="thumbnail" href="#" class="thumbnail">
                     <img class="img-responsive" src="images/infowidget.jpg">
                 </a>
@@ -105,13 +133,6 @@
         </div>
     </div>
     <!-- images end -->
-
-
-
-
-
-
-
 
 
 
